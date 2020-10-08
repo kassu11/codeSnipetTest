@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyyli.css">
+    <link href="tyyli.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <pre>
+<code class="language-js">let taulu = [
+  [0, 1, 2, 3, 4],
+  [0, 1, 2, 3, 4],
+  [0, 1, 2, 3, 4],
+  [0, 1, 2, 3, 4],
+  [0, 1, 2, 3, 4],
+  [0, 1, 2, 3, 4]
+]; let text = "abcd"
+if(false == true) console.log("Nani")
+let kirjain = Array.prototype.map.call(text, e => e);
+function testi(val) {
+  return val;
+};
+console.log(kirjain);</code></pre>
+
+    <pre>
+<code class="language-js">let canvas = document.getElementById("piirto");
+let sisalto = canvas.getContext("2d");
+
+let taulu = [1,2,3,4,5,6,7,8,9];
+taulu = taulu
+  .map(e => e * 5)
+  .reduce((x,y) => x + y)
+
+// Taulut
+let nimet = [
+  {nimi: "Äijä 1", sukunimi: "Nimi 1"},
+  {nimi: "Äijä 2", sukunimi: "Nimi 2"},
+  {nimi: "Äijä 3", sukunimi: "Nimi 3"},
+  {nimi: "Äijä 4", sukunimi: "Nimi 4"},
+  {nimi: "Äijä 5", sukunimi: "Nimi 5"},
+  {nimi: "Äijä 6", sukunimi: "Nimi 6"}
+]</code></pre>
+
+<pre>
+<code class="language-css">/**
+* prism.js default theme for JavaScript, CSS and HTML
+* Based on dabblet (http://dabblet.com)
+* @author Lea Verou
+*/
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: white;
+  background: none;
+  /* text-shadow: 0 1px white; */
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: rgb(165, 165, 165);
+}
+
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+}</code></pre>
+    
+<pre><code class="language-html"></code></pre>
+
+
+  </body>
+</html>
+
+<script src = "code.js"></script>
+<script src = "code2.js"></script>
