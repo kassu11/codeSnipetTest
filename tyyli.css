@@ -6,11 +6,12 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: white;
+  color: #83fd83;
   background: none;
   /* text-shadow: 0 1px white; */
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 1em;
+  background-color: #00000057;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -56,7 +57,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: #282a36;
+  background: #08090a;
 }
 
 /* Inline code */
@@ -108,7 +109,7 @@ code[class*="language-css"], pre[class*="language-css"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color: #f1fa8c;
+  color: #fff149;
 }
 
 .token.operator,
@@ -155,6 +156,11 @@ code[class*="language-css"], pre[class*="language-css"] {
 .language-html .token.name {
   color: #50fa7b;
 }
+code[class*="language-html"],
+pre[class*="language-html"] {
+  color: white;
+}
+
 .language-html .token.attr-value {
-  color: #f1fa8c;
+  color: #fff149;
 }
